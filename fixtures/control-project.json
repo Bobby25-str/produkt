@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "title": "Контрольный дом C-01",
+  "region_code": "Республика Башкортостан",
+  "locality": "Стерлитамак",
+  "model": {
+    "schema_version": 1,
+    "site": {
+      "bounds_mm": {
+        "width_mm": 30000,
+        "height_mm": 40000
+      },
+      "building_position_mm": {
+        "x_mm": 5000,
+        "y_mm": 5000
+      },
+      "rotation_deg": 0,
+      "source_status": "MANUAL"
+    },
+    "building": {
+      "L_mm": 10000,
+      "W_mm": 8000,
+      "H_mm": 3000,
+      "layers": [
+        {
+          "id": "LC",
+          "material_id": "TEST-CLAD",
+          "thickness_mm": 50,
+          "order": 0
+        },
+        {
+          "id": "LI",
+          "material_id": "TEST-INS",
+          "thickness_mm": 150,
+          "order": 1
+        },
+        {
+          "id": "LS",
+          "material_id": "TEST-STRUCT",
+          "thickness_mm": 200,
+          "order": 2
+        }
+      ],
+      "openings": [
+        {
+          "id": "D1",
+          "type": "door",
+          "side": "south",
+          "offset_mm": 4500,
+          "width_mm": 1000,
+          "height_mm": 2100,
+          "bottom_mm": 0
+        },
+        {
+          "id": "W1",
+          "type": "window",
+          "side": "south",
+          "offset_mm": 1000,
+          "width_mm": 1200,
+          "height_mm": 1400,
+          "bottom_mm": 900
+        },
+        {
+          "id": "W2",
+          "type": "window",
+          "side": "north",
+          "offset_mm": 1000,
+          "width_mm": 1200,
+          "height_mm": 1400,
+          "bottom_mm": 900
+        },
+        {
+          "id": "W3",
+          "type": "window",
+          "side": "north",
+          "offset_mm": 6000,
+          "width_mm": 1200,
+          "height_mm": 1400,
+          "bottom_mm": 900
+        },
+        {
+          "id": "W4",
+          "type": "window",
+          "side": "east",
+          "offset_mm": 3000,
+          "width_mm": 1200,
+          "height_mm": 1400,
+          "bottom_mm": 900
+        }
+      ],
+      "slab_mm": 200,
+      "roof_mm": 200
+    }
+  }
+}
